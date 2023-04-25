@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    n=0
+    a=0
+    while len(s)>n:
+        if s[n].isdigit():
+            a+=1
+        n+=1 
+    return a
+print(main("diyo1111r"))
