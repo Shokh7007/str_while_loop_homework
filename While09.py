@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    k=0
+    while a<len(s):
+       k+=int(s[a])
+       a+=1
+    return k
+print(main("12345987654321"))
