@@ -11,6 +11,6 @@ def main(s):
     while len(s)>n:
         if s[n].islower():
             a+=1
-        n+=1
+        n+=1    
     return a
 print(main("asdf12345"))
